@@ -1,0 +1,115 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    font-family: Helvetica,Arial;
+   background-color:#007FC0;
+  }
+
+         
+  .container
+  {
+  	width:990;
+
+  	margin: 0 auto ;
+ background-color: white;
+ padding: 5px;
+  }
+
+  .bordered{
+  	border: 1px solid #ccc;
+  	border-radius: 2px;
+  }
+
+header,footer	
+ 	{
+	 		background-color: #7ECBF3; 
+	 		border:1px solid gray ;
+	 		font-family: Helvetica,Arial;
+
+	}
+
+ footer{
+ 	padding: 10px;
+ 	border-radius: 5px;
+ }
+ header nav{
+ 	float: right;
+ 	 }
+ 	 header nav li{
+ 	 	display: inline;
+ 	 	font-size: 12px;
+ 	 	padding-right: 10px;
+ 	 }
+#main
+{  min-height: 400px;
+   margin: 10px 0px;
+  	border: 1px solid gray;
+   border-radius: 5px;
+   color:#202020;
+   padding: 5px;
+}
+ 
+ #results{
+ 	padding: 2px;
+ 	width: 300px;
+ 	border: 1px solid #ccc;
+   display: inline-block;
+   vertical-align: top;
+ }
+.result{
+	margin: 5px;
+	border: 1px solid #999;
+}
+.result .title{
+	font-weight: bold;
+ 
+   }
+ .login-form{
+ 	width: 500px;
+ 	padding: 5px;
+ 	display: inline-block;
+ 	vertical-align: top;
+      }
+
+
+.login-form label{
+	width: 120px;
+	display: inline-block;
+
+	   padding: 3px;
+   
+}
+.login-form input[type=text],
+.login-form input[type=password]
+ {
+   width:300px;
+	
+  }
+
+.login-form input[type=submit],
+.login-form input[type=reset],
+button
+{
+	background-color: #007FC0;
+	color:#fff;
+	width: 100px;
+	padding: 3px;
+    border-radius: 10px;
+    margin: 5px 0px 5px;
+
+}
+
+.login-form input[type=reset]
+{
+	background-color: gray;
+}
+#errorMsg {
+	color: #f00;
+	font-size: 12px;
+}
+
+#logoutSection{
+	display: none;
+}

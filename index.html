@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Udacity Home</title>
+     <link rel="stylesheet" type="text/css" href="cssStyle.css">  
+</head>
+<body>
+	 <div class="container" >
+<header>
+
+        <nav>
+    		<ul>
+			  <label for="username"> Lable usage (click on it)</label>
+				<li><a href="index.html">Home</a></li>
+    			<li><a href="corses.html">Corses</a> </li>
+    			<li><a href="about.html">About</a></li>
+    			<li><a href="contact.html">Contact</a></li>
+
+    		</ul>
+ 	    </nav>
+    <img src="logo.jpg" />
+  <h1>Home</h1>
+    	
+</header>
+ 
+<section id="main">
+  <h1> Welcome </h1>
+  <p>Hello <i>Today is</i>  <strong>relly great</strong> <span>day. </span></p>
+ 
+ 	 <br/><br/>
+ <div class="login-form bordered" >
+   	<form action="/api/login" method="POST" id="loginForm">
+   		<label for="username">Username :</label>
+   		<input type="text" name="username" id="username"/><br>
+   		<label for="password">Password  :</label>
+   		<input type="password" name="password" id="password" /><br/>
+   		<input type="checkbox" name="remember" id="remember">
+   		<label for="remember">Remember Me</label>
+   		<br/>
+   		<div id="errorMsg"></div>
+   		          
+   		<br/>
+       <input type="submit" name="loginbutton" value="login">
+       <input type="reset" name="cancelbutton" value="cancel">
+   	</form>
+   	<div id="logoutSection">
+      <p>You are logged in.</p>
+      <button id="logoutButton">Logout</button>   		
+   	</div>
+ </div>
+   <div id="results">
+   	<button id="toggleButton">Hide</button>
+   
+   <div id="resultList">
+   	Here we will display all the courses
+   </div>
+</div>
+ </section>
+ <footer>
+    	&copy; 2017-2018 Udacity India
+ </footer>	
+ </div>
+ <script type="text/javascript" src=" node_modules/jquery/dist/jquery.min.js"></script>
+ <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
